@@ -4,7 +4,7 @@ import Moment from 'react-moment';
 
 const LogItem = ({ log }) => {
   return (
-    <li className='collection-item' key={log.id}>
+    <li className='collection-item'>
       <div>
         <a
           href='#edit-log-modal'
